@@ -1,0 +1,45 @@
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fff8;
+  color: #333;
+}
+
+.about-header h2 {
+  font-size: 2rem;
+  color: #2f9e44;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-values {
+  margin-top: 40px;
+}
+
+.about-values h3 {
+  font-size: 1.5rem;
+  color: #2f9e44;
+  margin-bottom: 15px;
+}
+
+.about-values ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-values li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}

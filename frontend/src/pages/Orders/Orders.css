@@ -1,0 +1,42 @@
+.orders-page {
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.orders-page h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #32a852;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.order-item h4 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+}
+
+.order-item p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.error-text {
+  color: #d33;
+  font-weight: 600;
+}

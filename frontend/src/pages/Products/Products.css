@@ -1,0 +1,66 @@
+/* Page Container */
+.products-page {
+  padding: 40px 60px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f6fff7;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page Title */
+.products-page h2 {
+  font-size: 2rem;
+  color: #2f9e44;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Optional subtitle (if needed) */
+.products-page p.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Product List Container */
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Product Form Alignment */
+.products-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* Error or Loading Text */
+.error-text {
+  color: #d33;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loading-text {
+  color: #666;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .products-page {
+    padding: 20px;
+  }
+
+  .products-top {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,37 @@
+.product-detail {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.detail-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.detail-info {
+  max-width: 600px;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: green;
+  margin-top: 0.5rem;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.error-msg {
+  background-color: #ffe6e6;
+  padding: 1rem;
+  border: 1px solid red;
+  color: red;
+  margin: 2rem;
+  border-radius: 6px;
+}
